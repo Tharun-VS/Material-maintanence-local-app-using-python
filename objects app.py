@@ -105,7 +105,7 @@ def place():
                         for i in lis:
                             if len(i)==0:
                                 lis.remove(i)
-                        with open(r"D:\Python programs\ont.csv", 'w') as file:
+                        with open(r"ont.csv", 'w') as file:
                             writer = csv.writer(file)
                             for i in lis:
                                 for j in i:
