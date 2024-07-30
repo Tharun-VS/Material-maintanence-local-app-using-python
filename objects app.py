@@ -191,7 +191,7 @@ def function():
                 break
             
     if int(x.get())>0:
-        with open(r'D:\Python programs\ont.csv', 'w') as file:
+        with open(r'ont.csv', 'w') as file:
             writer = csv.writer(file)
             for i in lis:
                 for j in i:
